@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import profilePhoto from '@assets/0_ChatGPT_Image_Jul_28,_2026,_11_25_53_AM_1785221401730.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -82,21 +83,43 @@ export default function AboutSection() {
             </div>
           </div>
 
-          <div ref={statsRef} className="grid grid-cols-2 gap-4 md:gap-6">
-            {STATS.map((stat, idx) => (
-              <div 
-                key={idx} 
-                className="aspect-square flex flex-col items-center justify-center p-6 bg-card/50 border border-white/5 rounded-2xl backdrop-blur-sm hover:border-primary/50 transition-colors group"
-                data-cursor-hover="true"
-              >
-                <div className="text-4xl md:text-5xl font-bold text-white mb-2 group-hover:text-primary transition-colors font-mono">
-                  {stat.value}
-                </div>
-                <div className="text-sm text-muted-foreground uppercase tracking-widest text-center">
-                  {stat.label}
-                </div>
+          <div className="flex flex-col items-center gap-8">
+            {/* Profile Photo */}
+            <div className="relative w-64 h-64 md:w-80 md:h-80 flex-shrink-0">
+              {/* Outer glow ring */}
+              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/40 via-accent/20 to-transparent blur-2xl scale-110 pointer-events-none" />
+              {/* Rotating border */}
+              <div className="absolute inset-0 rounded-full border-2 border-primary/30 animate-spin" style={{ animationDuration: '8s' }} />
+              <div className="absolute inset-[3px] rounded-full border border-white/10" />
+              {/* Photo */}
+              <img
+                src={profilePhoto}
+                alt="Shree Amble"
+                className="absolute inset-[6px] w-[calc(100%-12px)] h-[calc(100%-12px)] rounded-full object-cover object-top"
+              />
+              {/* Bottom label badge */}
+              <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 px-4 py-1 bg-primary/20 border border-primary/40 backdrop-blur-sm rounded-full text-xs font-mono text-primary uppercase tracking-widest whitespace-nowrap">
+                Frontend Developer
               </div>
-            ))}
+            </div>
+
+            {/* Stats Grid */}
+            <div ref={statsRef} className="grid grid-cols-2 gap-4 w-full">
+              {STATS.map((stat, idx) => (
+                <div
+                  key={idx}
+                  className="flex flex-col items-center justify-center p-5 bg-card/50 border border-white/5 rounded-2xl backdrop-blur-sm hover:border-primary/50 transition-colors group"
+                  data-cursor-hover="true"
+                >
+                  <div className="text-3xl md:text-4xl font-bold text-white mb-1 group-hover:text-primary transition-colors font-mono">
+                    {stat.value}
+                  </div>
+                  <div className="text-xs text-muted-foreground uppercase tracking-widest text-center">
+                    {stat.label}
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
 
         </div>
