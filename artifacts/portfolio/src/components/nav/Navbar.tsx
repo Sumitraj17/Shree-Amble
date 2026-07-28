@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
+import profilePhoto from '@assets/0_ChatGPT_Image_Jul_28,_2026,_11_25_53_AM_1785221401730.png';
 
 const LINKS = [
   { label: 'About', href: '#about' },
@@ -45,10 +46,20 @@ export default function Navbar() {
           <a
             href="#hero"
             onClick={(e) => handleLinkClick(e, '#hero')}
-            className="text-xl font-bold tracking-tighter text-foreground group relative"
+            className="flex items-center gap-2.5 group relative"
             data-cursor-hover="true"
           >
-            S<span className="text-primary">.</span>A
+            <div className="relative w-8 h-8 flex-shrink-0">
+              <div className="absolute inset-0 rounded-full bg-primary/40 blur-sm group-hover:bg-primary/60 transition-colors" />
+              <img
+                src={profilePhoto}
+                alt="Shree Amble"
+                className="relative w-8 h-8 rounded-full object-cover object-top border border-primary/40 group-hover:border-primary/80 transition-colors"
+              />
+            </div>
+            <span className="text-xl font-bold tracking-tighter text-foreground">
+              S<span className="text-primary">.</span>A
+            </span>
             <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full"></span>
           </a>
 
