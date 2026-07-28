@@ -1,0 +1,269 @@
+You are an award-winning frontend engineer and UI/UX designer.
+
+Build a unique, futuristic, premium personal portfolio for "Shree Amble" that feels like an interactive digital experience rather than a normal portfolio.
+
+Tech Stack:
+- React + Vite
+- Tailwind CSS
+- Framer Motion
+- GSAP
+- Three.js (React Three Fiber)
+- Lenis Smooth Scroll
+- Lucide Icons
+
+Design Inspiration:
+Apple, Linear, Stripe, Vercel, Nothing, Tesla, Awwwards.
+
+Theme:
+Dark futuristic interface with glassmorphism, neon blue accents, subtle gradients, animated particles, premium typography and cinematic transitions.
+
+DO NOT create a generic portfolio.
+
+================================================
+
+PERSONAL DETAILS
+
+Name:
+Shree Amble
+
+Role:
+Frontend Developer
+
+Subtitle:
+Creating immersive digital experiences through modern frontend engineering.
+
+Bio:
+I'm a BCA student and passionate Frontend Developer focused on building beautiful, responsive and high-performance web applications. I enjoy crafting interfaces that combine exceptional user experience with clean architecture and modern technologies.
+
+================================================
+
+LANDING EXPERIENCE
+
+Instead of immediately showing the portfolio,
+
+Display a cinematic loading screen.
+
+Animate my name letter by letter.
+
+Play a subtle startup animation.
+
+After loading,
+camera smoothly reveals the hero section.
+
+================================================
+
+HERO
+
+Massive typography.
+
+Interactive 3D background.
+
+Mouse reacts to objects.
+
+Floating UI cards.
+
+Animated gradient.
+
+Typing effect.
+
+CTA
+
+Explore My Work
+
+Download Resume
+
+Contact Me
+
+================================================
+
+ABOUT
+
+Instead of normal text,
+
+Create an animated storytelling timeline.
+
+As user scrolls,
+
+content reveals with cinematic motion.
+
+================================================
+
+SKILLS
+
+Do NOT use progress bars.
+
+Create floating 3D skill cards.
+
+Categories
+
+Frontend
+
+React
+
+JavaScript
+
+TypeScript
+
+HTML
+
+CSS
+
+Tailwind
+
+Next.js
+
+Animations
+
+Framer Motion
+
+GSAP
+
+Three.js
+
+Tools
+
+Git
+
+GitHub
+
+Figma
+
+VS Code
+
+================================================
+
+PROJECT SHOWCASE
+
+Create premium project gallery.
+
+Every project opens like an Apple product page.
+
+Large fullscreen animation.
+
+Project details slide from side.
+
+Technology chips animate.
+
+Buttons
+
+Live Demo
+
+GitHub
+
+Project Images
+
+================================================
+
+EXPERIENCE
+
+Interactive vertical timeline.
+
+================================================
+
+EDUCATION
+
+Modern timeline.
+
+================================================
+
+CERTIFICATES
+
+Glass cards with hover animation.
+
+================================================
+
+STATS
+
+Animated counters.
+
+Projects
+
+Technologies
+
+Hours Coding
+
+Coffee
+
+================================================
+
+CONTACT
+
+3D animated contact section.
+
+Floating icons.
+
+Magnetic buttons.
+
+Animated form.
+
+================================================
+
+EXTRAS
+
+Custom animated cursor.
+
+Spotlight effect following mouse.
+
+Smooth scrolling.
+
+Scroll progress indicator.
+
+Page transition animations.
+
+Section reveal animations.
+
+Hover physics.
+
+Magnetic buttons.
+
+Parallax backgrounds.
+
+Interactive blobs.
+
+Animated gradients.
+
+Noise texture.
+
+Glass morphism.
+
+Floating particles.
+
+Dynamic lighting.
+
+Animated shadows.
+
+Text reveal animations.
+
+Mouse trail.
+
+Responsive mobile menu.
+
+Dark mode.
+
+SEO optimized.
+
+Accessibility optimized.
+
+Lazy loading.
+
+Code splitting.
+
+Reusable components.
+
+================================================
+
+BONUS
+
+Add an AI Assistant floating button.
+
+When clicked,
+
+it opens a chatbot saying
+
+"Hi, I'm Shree's AI Portfolio Assistant. Ask me anything about his projects, skills or experience."
+
+The chatbot should answer predefined questions.
+
+================================================
+
+The final result should feel like an award-winning Awwwards website that recruiters instantly remember. It should look like a premium product worth showcasing in interviews and demonstrate advanced frontend engineering skills rather than just displaying information.
