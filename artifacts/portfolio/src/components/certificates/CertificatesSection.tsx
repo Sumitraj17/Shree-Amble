@@ -1,13 +1,38 @@
-import React from 'react';
-import { Award } from 'lucide-react';
-import SectionReveal from '../shared/SectionReveal';
-import { motion } from 'framer-motion';
+import React from "react";
+import { Award } from "lucide-react";
+import SectionReveal from "../shared/SectionReveal";
+import { motion } from "framer-motion";
+
+import certificate1 from "./certificate1.jpg";
+import certificate2 from "./certificate2.jpg";
+import certificate3 from "./certificate3.jpg";
+import certificate4 from "./certificate4.jpg";
 
 const CERTIFICATES = [
-  { title: "React Developer Certification", issuer: "Meta / Coursera" },
-  { title: "JavaScript Algorithms", issuer: "freeCodeCamp" },
-  { title: "Responsive Web Design", issuer: "freeCodeCamp" },
-  { title: "Git & GitHub Bootcamp", issuer: "Udemy" }
+  {
+    title: "Introduction to Ethical Hacking",
+    issuer: "Great Learning Academy",
+    date: "December 2023",
+    image: certificate1,
+  },
+  {
+    title: "Web Development Internship",
+    issuer: "CodSoft",
+    date: "May 2024",
+    image: certificate2,
+  },
+  {
+    title: "Introduction to Python",
+    issuer: "Infosys Springboard",
+    date: "March 2024",
+    image: certificate3,
+  },
+  {
+    title: "Freedom with AI Masterclass",
+    issuer: "Freedom With AI",
+    date: "June 2024",
+    image: certificate4,
+  },
 ];
 
 export default function CertificatesSection() {
@@ -16,7 +41,10 @@ export default function CertificatesSection() {
       <SectionReveal className="max-w-7xl mx-auto px-6">
         <div className="mb-16 text-center">
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
-            Licenses & <span className="text-primary italic font-serif font-light">Certifications</span>
+            Licenses &{" "}
+            <span className="text-primary italic font-serif font-light">
+              Certifications
+            </span>
           </h2>
         </div>
 
@@ -28,14 +56,32 @@ export default function CertificatesSection() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1, duration: 0.5 }}
-              className="group p-6 rounded-2xl border border-white/5 bg-card/20 hover:bg-card/40 hover:border-primary/30 transition-all duration-300 relative overflow-hidden"
+              className="group rounded-2xl overflow-hidden border border-white/5 bg-card/20 hover:bg-card/40 hover:border-primary/30 transition-all duration-300"
             >
-              <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-100 group-hover:text-primary transition-all duration-500 translate-x-4 -translate-y-4 group-hover:translate-x-0 group-hover:translate-y-0">
-                <Award className="w-16 h-16" />
+              <div className="overflow-hidden">
+                <img
+                  src={cert.image}
+                  alt={cert.title}
+                  className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105"
+                />
               </div>
-              <Award className="w-8 h-8 text-primary mb-4" />
-              <h3 className="text-lg font-bold text-white mb-2 leading-tight relative z-10">{cert.title}</h3>
-              <p className="text-muted-foreground text-sm font-mono relative z-10">{cert.issuer}</p>
+
+              <div className="p-5">
+                <div className="flex items-center gap-2 mb-3">
+                  <Award className="w-5 h-5 text-primary" />
+                  <span className="text-primary text-sm font-medium">
+                    {cert.issuer}
+                  </span>
+                </div>
+
+                <h3 className="text-lg font-bold text-white leading-tight mb-2">
+                  {cert.title}
+                </h3>
+
+                <p className="text-muted-foreground text-sm">
+                  Completed • {cert.date}
+                </p>
+              </div>
             </motion.div>
           ))}
         </div>

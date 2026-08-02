@@ -96,12 +96,12 @@ export default function HeroSection() {
               <Mail className="w-4 h-4" />
               <span>Contact Me</span>
             </MagneticButton>
-            <MagneticButton
-              className="flex flex-col items-center justify-center w-14 h-14 bg-white/5 hover:bg-white/10 text-white border border-white/10 rounded-full transition-colors backdrop-blur-md tooltip-trigger group"
-              data-cursor-hover="true"
-              onClick={() => window.open('/resume.pdf', '_blank')}
-              title="Download Resume"
-            >
+<MagneticButton
+  className="flex flex-col items-center justify-center w-14 h-14 bg-white/5 hover:bg-white/10 text-white border border-white/10 rounded-full transition-colors backdrop-blur-md tooltip-trigger group"
+  data-cursor-hover="true"
+  onClick={() => window.open("/Profile.pdf", "_blank")}
+  title="Download Resume"
+>
               <FileText className="w-5 h-5 group-hover:text-primary transition-colors" />
             </MagneticButton>
           </div>

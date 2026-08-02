@@ -15,8 +15,8 @@ const RESPONSES: Record<string, string> = {
   "projects": "He has worked on several amazing projects like NovaMind (AI Dashboard), PixelCraft (Design Tool), and AuraCart (E-commerce). You can check them out in the Projects section!",
   "experience": "He's currently working as a Freelance Frontend Developer (2023-Present) and actively contributes to Open Source.",
   "education": "Shree is currently pursuing a Bachelor of Computer Applications (BCA) with a focus on Software Engineering and Web Technologies.",
-  "contact": "You can reach Shree via email at hello@shreeamble.com, or through the contact form at the bottom of the page. He's also on GitHub and LinkedIn!",
-  "default": "I'm not sure about that specific detail. But you can email Shree directly at hello@shreeamble.com to ask him personally!"
+  "contact": "You can reach Shree via email at shreeamble.3@gmail.com, or through the contact form at the bottom of the page. He's also on GitHub and LinkedIn!",
+  "default": "I'm not sure about that specific detail. But you can email Shree directly at shreeamble.3@gmail.com to ask him personally!"
 };
 
 function findBestResponse(input: string): string {

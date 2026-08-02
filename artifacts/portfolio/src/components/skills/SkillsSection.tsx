@@ -3,18 +3,30 @@ import { motion } from 'framer-motion';
 import SectionReveal from '../shared/SectionReveal';
 
 const SKILL_CATEGORIES = [
-  {
-    title: "Frontend",
-    skills: ["React", "JavaScript", "TypeScript", "HTML", "CSS", "Tailwind CSS", "Next.js"]
-  },
-  {
-    title: "Animations",
-    skills: ["Framer Motion", "GSAP", "Three.js", "React Three Fiber"]
-  },
-  {
-    title: "Tools & Ecosystem",
-    skills: ["Git", "GitHub", "Figma", "VS Code", "Vite", "pnpm"]
-  }
+{
+  title: "Frontend",
+  skills: [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "React.js",
+    "Python",
+  ]
+},
+{
+  title: "Design & Creativity",
+  skills: [
+    "UI/UX Design",
+    "Photo Editing",
+    "Video Editing"
+  ]
+},
+{
+  title: "Marketing",
+  skills: [
+    "Digital Marketing"
+  ]
+}
 ];
 
 function SkillCard({ title, skills, index }: { title: string, skills: string[], index: number }) {

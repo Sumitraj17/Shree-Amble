@@ -6,13 +6,50 @@ const EXPERIENCES = [
     role: "Freelance Frontend Developer",
     company: "Self-Employed",
     period: "2023 — Present",
-    description: "Designing and developing custom web applications for various clients. Focusing on creating high-performance, responsive, and accessible user interfaces using React, Next.js, and Tailwind CSS."
+    description:
+      "Designing and developing custom web applications for various clients. Focusing on creating high-performance, responsive, and accessible user interfaces using React, Next.js, and Tailwind CSS."
   },
   {
     role: "Open Source Contributor",
     company: "Personal Projects",
     period: "2022 — 2024",
-    description: "Building and maintaining various frontend tools and utility libraries. Experimenting with new web APIs, WebGL, and advanced CSS techniques to push the boundaries of digital experiences."
+    description:
+      "Building and maintaining various frontend tools and utility libraries. Experimenting with new web APIs, WebGL, and advanced CSS techniques to push the boundaries of digital experiences."
+  },
+  {
+    role: "Founder & Frontend Developer",
+    company: "TechWave Developers",
+    period: "Aug 2024 — Jul 2026",
+    description:
+      "Founded and managed a digital solutions agency specializing in custom websites, web applications, branding, graphic design, and creative content. Collaborated with startups and businesses to deliver scalable, high-performance digital solutions while ensuring exceptional user experience and client satisfaction."
+  },
+  {
+    role: "Python Programming Intern",
+    company: "Oasis Infobyte",
+    period: "Jun 2024 — Aug 2024",
+    description:
+      "Developed Python applications and worked with Flask, NumPy, and Pandas to build efficient software solutions. Gained practical experience in API integration, debugging, performance optimization, and writing clean, maintainable code."
+  },
+  {
+    role: "Internshala Student Partner (ISP)",
+    company: "Internshala Trainings",
+    period: "May 2024 — Aug 2024",
+    description:
+      "Represented Internshala as a campus ambassador by promoting training programs, organizing student outreach initiatives, and helping learners discover career development opportunities while strengthening leadership, communication, and networking skills."
+  },
+  {
+    role: "Frontend Web Developer Intern",
+    company: "CodSoft",
+    period: "Apr 2024 — May 2024",
+    description:
+      "Developed responsive websites using HTML, CSS, and JavaScript while implementing modern UI components and improving user experience. Gained hands-on experience in frontend development through real-world projects."
+  },
+  {
+    role: "Sales Development Representative Intern",
+    company: "Intervue.io",
+    period: "Feb 2023 — Jun 2023",
+    description:
+      "Worked on lead generation, client outreach, and sales pipeline management. Collaborated with the sales team to identify prospective clients, build business relationships, and contribute to overall company growth."
   }
 ];
 

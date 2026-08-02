@@ -86,9 +86,8 @@ export default function ContactSection() {
 
             <div className="flex gap-4">
               {[
-                { icon: Github, href: "https://github.com/shreeamble" },
-                { icon: Linkedin, href: "https://linkedin.com/in/shreeamble" },
-                { icon: Twitter, href: "https://twitter.com/shreeamble" }
+                { icon: Github, href: "https://github.com/shreeamble003" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/shree-amble-9b32252a3/" },
               ].map((social, i) => (
                 <MagneticButton 
                   key={i} 
@@ -104,8 +103,8 @@ export default function ContactSection() {
             <div className="pt-8 border-t border-white/10">
               <div className="flex items-center gap-4 text-muted-foreground mb-2">
                 <Mail className="w-5 h-5 text-primary" />
-                <a href="mailto:hello@shreeamble.com" className="hover:text-white transition-colors" data-cursor-hover="true">
-                  hello@shreeamble.com
+                <a href="mailto:shreeamble.3@gmail.com" className="hover:text-white transition-colors" data-cursor-hover="true">
+                  shreeamble.3@gmail.com
                 </a>
               </div>
               <div className="text-sm font-mono text-muted-foreground/50 uppercase tracking-widest">

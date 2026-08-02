@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import profilePhoto from '@assets/0_ChatGPT_Image_Jul_28,_2026,_11_25_53_AM_1785221401730.png';
+import profilePhoto from '@assets/profile.png';
 
 gsap.registerPlugin(ScrollTrigger);
 
